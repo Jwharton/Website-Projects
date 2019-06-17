@@ -6,33 +6,22 @@ body {
 	font-family: "Source Sans Pro";
 }
 
-
 .banner {
-	text-align: center;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	width:95%;
 	margin-bottom: 3em;
 }
 
-.banner img {
-	display: inline-block;
-	vertical-align: middle;
-	width: 40em;
-	margin-left: -10%;
-
-}
-
-.banner div {
-	display: inline-block;
-	vertical-align: middle;
-	width: 35%;
-}
 
 .banner h2 {
-	font-size: 2em;
-	margin-left: -50%;
-	margin-right: -10%;
+	text-align: center;
 	font-family: "josefin Sans";
-
+	font-size: 2em;
+	margin-left: -25%;
 }
+
 
 .content {
 	margin: 0, auto;
@@ -40,59 +29,48 @@ body {
 
 }
 
-table h2 {
+#biography h2{
 	text-align: center;
-	font-size: 1.4em;
-	
 }
 
-table {
-	width: 100%;
-	height: 100%;
-	margin: auto;
-
-
+#filmography {
+	margin-bottom: 3em;
 }
 
-
-#film-content{
-
-	width: 100%;
-	margin: 0px, auto;
+#filmography h2 {
 	text-align: center;
+}
+
+.films {
+	display: flex;
+	margin-bottom: 3em;
+	align-items: flex-start;
+	justify-content: center;
+	width: 100%;
+}
+
+#films-1 {
+	 padding-right: 3em;
+	 padding-left: 3em;
+}
+
+#films-2 {
+	 padding-left: 3em;
 
 }
 
-.films-1{
-	display: inline-block;
-	vertical-align: top;
-	text-align: left;
-	padding: 1.5em;
-}
-
-.films-2{
-	display: inline-block;
-	vertical-align: top;
-	text-align: left;
-	padding: 1.5em;
-}
-
-
-
-.films-1 li, .films-2 li{
+#films-1 li, #films-2 li{
 	list-style: none;
 }
 
 .movie-icons {
-	display: inline-block;
-	text-align: center;
-	margin-left: 10.5em;
-	margin-right: 10.5em;
-	margin-bottom: 10em;
+	display: inline-flex;
+	justify-content: center;
+	width:95%;
+	margin-bottom: 3em;
 }
 
 #movie-icon-1 {
-	display: inline-block;
 	background-image: url('../images/indianajones.jpg');
 	background-repeat: no-repeat;
     background-position: center; 
@@ -103,7 +81,6 @@ table {
   
 }
 #movie-icon-2 {
-		display: inline-block;
 	background-image: url('../images/airforceone.jpg');
 	background-repeat: no-repeat;
     background-position: center; 
@@ -113,8 +90,7 @@ table {
     margin-right: 2.5em;
      
 }
-#movie-icon-3 {
-		display: inline-block;
+#movie-icon-3 {	 
 	background-image: url('../images/starwars.jpg');
 	background-repeat: no-repeat;
     background-position: center; 
@@ -122,6 +98,4 @@ table {
     width: 10em;
     height:10em;
     margin-right: 2.5em;
-}
-
-
+    }
